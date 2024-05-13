@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        every: tất cả
+        tức là tất cả các phần tử trong mảng phải thỏa mãn điều kiện 
+        kết quả trả về tre/false
+        */
+       let numbers=[5,7,8];
+    //    let result=numbers.every((a)=>{
+    //     return a>5
+    //    })
+    //    console.log("result",result);
+
+       let students=[
+        {
+            name:"mai",
+            gender:"male",
+            address:"hn"
+        },
+        {
+            name:"nam",
+            gender:"female",
+            address:"hn"
+        },
+        {
+            name:"ngoc",
+            gender:"female",
+            address:"hn"
+        },
+       ]
+       let result=students.every((a)=>{
+        return a.gender=="male"
+       })
+       if(result){
+        console.log("tất cả đều là nam");
+       }else{
+        console.log("không phải tất cả đều là nam")
+       }
+    </script>
+</body>
+</html>

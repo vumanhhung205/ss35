@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        forEach
+        1.dùng để duyệt các phần tử trong mảng
+        2.không tạo ra mảng mới
+        3.không nhận return
+        4.tương tác trực tiếp với các phần tử trong mảng
+
+        ==> khi làm việc vói các phương thức thì phải quan tâm đâu vào là gì
+        đầu ra kết quả là gì
+
+        cú pháp tổng quát
+        arrayName.forEach(function(){
+
+        })
+        arrayName.forEach(()=>{
+
+        })
+        ()=>{
+
+        }
+        item: các phần tử trong mảng
+        index: vị trí của  phần tử đó
+        array: là mảng ban đầu
+        */ 
+       let numbers=[1,2,3,4,5];
+       numbers.forEach((item1,index,array)=>{
+        // console.log("item",item1);
+        // console.log("index",index);
+        return 100;
+       })
+       console.log(result);
+    </script>
+</body>
+</html>
